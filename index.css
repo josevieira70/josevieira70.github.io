@@ -1,0 +1,208 @@
+html{ 
+	background-image:
+	url("wallpaper.jpg");
+	background-size: 100% auto;
+	
+}
+
+.img-logo img{ 
+	height: 200px;	/* altura da imagem */
+	width: 600x;	/* largura da imagem */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+header { 
+	background-color: rgb(42, 17, 70, 0.1);
+	border: 1px solid #ffd20a;
+	margin-top: 10px;
+}
+
+ul.menu {
+	margin: 0;
+	padding: 1;
+	list-style: none;
+	font-family: 'Bookman Old Style', cursive;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h1 { 
+	font-family: 'Bookman Old Style', cursive;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 2px blue;
+	color: #ffd20a;
+}
+body {
+	width: 90%;
+	min-width: auto;
+	margin: 0 auto;
+}
+main { 
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+div.menu {
+    width: 25%;
+    height: 500px;
+	position: relative;
+	left: 0;
+	background-color: rgb(42, 17, 70, 0.1);
+	border: 1px solid #ffd20a;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.conteudo {
+	font-family: 'Bookman Old Style', cursive;
+	font-size: 17px;
+	font-weight: bold;
+	width: 75%;
+	background-color: rgb(42, 17, 70, 0.1);
+    margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #ffd20a;
+	text-shadow: 2px 2px 2px blue;
+	color: #ffd20a;
+	margin-bottom: 10px;
+	overflow: auto;
+	height: 500px;
+}
+p { 
+	margin-left: 10px;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	text-shadow: 2px 2px 2px blue;
+	color: #ffd20a;
+	}
+.redblue img {
+	position:absolute;
+	top:50%;
+	left:50%;
+  
+}
+h2 {
+	font-family: 'Bookman Old Style', cursive;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 2px blue;
+	color: #ffd20a;
+}
+
+h3 { 
+	font-family: 'Bookman Old Style', cursive;
+	font-size: 17px;
+	text-align: left;
+	text-shadow: 2px 2px 2px blue;
+	color: #ffd20a;
+}
+ol { 
+	list-style-type: circle;
+}
+
+li {
+	padding: 6px;
+}
+
+table { 
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+td.SE{ 
+	background-color: green;
+	border: 1px solid #ffd20a;
+	color: green;
+	text-shadow: 2px 2px 2px green;
+}
+
+td.NE{ 
+	background-color: red;
+	border: 1px solid #ffd20a;
+	color: red;
+	text-shadow: 2px 2px 2px red;
+}
+
+td.IM{ 
+	background-color: white;
+	border: 1px solid #ffd20a;
+	color: white;
+	text-shadow: 2px 2px 2px white;
+}
+
+td.NONE{ 
+	background-color: black;
+	border: 1px solid #ffd20a;
+	color: black;
+	text-shadow: 2px 2px 2px black;
+}
+td.SEIM{ 
+	background-color: green;
+	background-image: linear-gradient(to right, green 50%, white 50%);
+	border: 1px solid #ffd20a;
+}
+td.tab{ 
+	border: 1px solid #ffd20a;
+}
+
+div.tabela{ 
+	font-family: 'Bookman Old Style', cursive;
+	font-weight: bold;
+	width: 75%;
+	background-color: rgb(42, 17, 70, 0.1);
+    margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #ffd20a;
+	text-shadow: 2px 2px 2px blue;
+	color: #ffd20a;
+	margin-bottom: 10px;
+	overflow: auto;
+	height: 500px;
+	font-size: 12px;
+}
+div.envio{
+	border: 1px solid #ffd20a;
+	height: auto;
+	width: 450px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+	
+}
+div.form{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ffd20a;
+	text-align: left;
+}
+input.enviar{ 
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+	height: 10px;
+	background: rgb(42, 17, 70, 0.1);
+}
+
+::-webkit-scrollbar-button {
+	background: rgb(42, 17, 70, 0.1)
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 210, 10, 0.67);
+}
+
